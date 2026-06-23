@@ -4,8 +4,8 @@
   # Install deps + build the Vite app
   command = "npm install && npm run build"
   # Where Vite puts the production bundle
-  publish = "logeshportfolio3-main/dist"
+  publish = "dist"
 
 # (Optional) Functions directory – keep it if you ever add Netlify Functions
 [functions]
-  directory = "logeshportfolio3-main/netlify/functions"
+  directory = "netlify/functions"
