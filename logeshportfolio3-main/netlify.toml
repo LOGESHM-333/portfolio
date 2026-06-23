@@ -1,11 +1,7 @@
 [build]
-  # The folder that actually contains package.json, src/, etc.
   base    = "logeshportfolio3-main"
-  # Install deps + build the Vite app
   command = "npm install && npm run build"
-  # Where Vite puts the production bundle
   publish = "dist"
 
-# (Optional) Functions directory – keep it if you ever add Netlify Functions
 [functions]
-  directory = "netlify/functions"
+  directory = ".netlify/functions-internal"
